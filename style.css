@@ -1,0 +1,102 @@
+/* body part */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* div part */
+#fill-details{
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+/* heading part */
+h1{
+    position: relative;
+    top: 20vh;
+    /* border: 1px solid blue; */
+}
+/* form part */
+#fill-form{
+    position: relative;
+    top: 15vh;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+/* label part */
+.abbrev{
+    position: absolute;
+    left: 8vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* border: 1px solid orange; */
+}
+/* input part */
+.abbrevdata{
+    position: absolute;
+    left: 25vw;
+    width: 170px;
+    height: 25px;
+}
+/* button part */
+#button-1{
+    position: absolute;
+    left: 18vw;
+    top: 50vh;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    /* border: 1px solid aqua; */
+    background-color: honeydew;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#button-1:hover{
+    box-shadow: 0px 0px 3px 1px cadetblue;
+}
+/* output div part */
+#output{
+    /* border-left: 1px solid darkmagenta; */
+    border-left: 1px solid gray;
+    width: 39vw;
+    height: 90vh;
+}
+/* person detail  */
+#output-details{
+    position: relative;
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 99%;
+}
+/*  paragraph part  */
+p:nth-child(2n){
+    background-color: lightgray;
+}
+/* this is also paragraph part  */
+p{
+    /* border: 1px solid yellow; */
+    position: relative;
+    font-size: 1.3rem;
+    padding: 2%;
+    text-align: left;
+    padding-left: 0.5cm;
+    margin: 2px 2px;
+    /* height: inherit; */
+}
+/* bold part */
+b{
+    background-color: green;
+    color: honeydew;
+    font-weight: 500;
+}

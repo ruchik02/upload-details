@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- div container -->
+    <div id="fill-details">
+        <!-- heading  -->
+        <h1>Add Student Data</h1>
+        <!-- form -->
+        <form action="" id="fill-form">
+            <!-- div ,label and input -->
+            <div id="form-containers">
+                <label for="rollno" class="abbrev">Roll No.</label>
+                <input type="number" name="stud-rollno" id="rollno" class="abbrevdata">
+            </div>
+              <!-- div ,label and input -->
+            <div id="form-containers">
+                <label for="name" class="abbrev">Name</label>
+                <input type="text" name="stud-name" id="name" class="abbrevdata">
+            </div>
+              <!-- div ,label and input -->
+            <div id="form-containers">
+                <label for="marks" class="abbrev">Marks</label>
+                <input type="number" name="stud-marks" id="marks" class="abbrevdata">
+            </div>
+            <!-- submit part -->
+            <div>
+                <input type="submit" id="button-1" value="Add-Details">
+            </div>
+        </form>
+    </div>
+    <!-- details -->
+    <div id="output">
+        <span id="output-details"></span>
+    </div>
+    <div id="container">
+
+    </div>
+</body>
+</html>
